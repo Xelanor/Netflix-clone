@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import HomePage from './containers/HomePage'
-import './App.css'
+import HomePage from './containers/HomePage/HomePage'
+import LoginScreen from './containers/LoginScreen/LoginScreen'
+import Navbar from './components/Layout/Navbar/Navbar'
+import MoviePage from './containers/MoviePage/MoviePage'
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div>
+          <Navbar />
           <Route path="/" exact component={HomePage} />
+          <Route path="/login" component={LoginScreen} />
+          <Route path="/izle" component={MoviePage} />
         </div>
       </Router>
     );

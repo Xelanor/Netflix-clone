@@ -2,10 +2,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        clone: '#282828',
-        clone2: '#C4C4C4',
-        clone3: '#B5B3B3',
-        tekno4: '#0B032D',
+        clone: '#E785FF',
+        clone2: '#282828',
+        clone3: '#C4C4C4',
+        clone4: '#B5B3B3',
         tekno5: '#545454'
       }
     }
