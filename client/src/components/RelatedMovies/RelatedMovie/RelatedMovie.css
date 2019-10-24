@@ -1,0 +1,11 @@
+.related-movie {
+  width: 210px;
+  height: 124px;
+}
+
+@media only screen and (max-width: 767px) {
+  .related-movie {
+    width: 168px !important;
+    height: auto;
+  }
+}

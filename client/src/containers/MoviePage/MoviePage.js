@@ -21,11 +21,11 @@ class MoviePage extends Component {
   render() {
     return (
       <>
-        <div className="flex-1 pt-32 xl:flex">
-          <div id="primary" className="flex xl:w-full ml-16 xl:ml-40 mr-12">
+        <div className="flex-1 pt-32 xl:flex pr-2 lg:px-0">
+          <div id="primary" className="flex xl:w-full ml-8 xl:ml-40 mr-6">
             <Movie />
           </div>
-          <div id="related" className="flex-1 mr-12 xl:mr-40 r-0 ml-16 xl:ml-0 mt-16 xl:mt-0">
+          <div id="related" className="flex-1 mr-6 xl:mr-40 r-0 ml-8 xl:ml-0 mt-16 xl:mt-0">
             <div className="text-white mb-2 text-4xl font-normal">
               Öneriler
             </div>

@@ -8,7 +8,7 @@ const MovieBoxes = (props) => {
     return <MovieBox />
   })
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap justify-center">
       {movies}
     </div>
   );
