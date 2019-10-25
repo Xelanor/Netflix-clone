@@ -8,7 +8,7 @@ const MovieBox = (props) => {
     <Link className="w-full md:w-auto" to="/izle?f=123asdf235123">
       <div className="mr-1 mb-6 movie-box">
         <div className="flex relative inline-block w-full h-auto">
-          <img className="w-full" src="https://i.ytimg.com/vi/TcMBFSGVi1c/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCfjWZT0nq_NRhPPPiJMeyDpO1zNw" />
+          <img className="w-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTjgQZ7pKoBDr1Mg-JRNrI7iOqcEc7wAIXncvXmkNydrhWJr0Zw" />
         </div>
         {/* <div className="flex relative inline-block" style={{ width: "210px", height: "124px" }}>
           <img src="https://i.ytimg.com/an_webp/wmiIUN-7qhE/mqdefault_6s.webp?du=3000&sqp=CMTDsO0F&rs=AOn4CLAOcWAdZrqGOimx4qUUqx6uh2nadg" />
