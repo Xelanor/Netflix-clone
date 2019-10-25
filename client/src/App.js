@@ -13,7 +13,7 @@ class App extends Component {
         <div>
           <Navbar />
           <Route path="/" exact component={HomePage} />
-          <Route path="/login" component={LoginScreen} />
+          <Route path="/login" exact component={LoginScreen} />
           <Route path="/izle" component={MoviePage} />
         </div>
       </Router>
